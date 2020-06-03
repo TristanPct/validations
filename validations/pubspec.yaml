@@ -14,7 +14,7 @@ dependencies:
   validators: '>=2.0.0'
 
 dev_dependencies:
-  coverage: ^0.12.2
+  coverage: ^0.13.9
   build_runner:
   validations_generator:
     git:
@@ -22,5 +22,5 @@ dev_dependencies:
       ref: develop
       path: validations_generator
   pedantic: ^1.0.0
-  test: ^1.0.0
-  test_coverage: ^0.3.0
+  test: ^1.6.4
+  test_coverage: ^0.4.1
