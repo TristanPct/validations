@@ -12,7 +12,7 @@ dependencies:
   validations :     
     git:
       url: git@github.com:tristanpct/validations.git
-      ref: master
+      ref: develop
       path: validations
   analyzer: ^0.39.0
   build: '>=0.12.6 <2.0.0'
