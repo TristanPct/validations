@@ -9,7 +9,11 @@ environment:
   sdk: '>=2.2.2 <3.0.0'
 
 dependencies:
-  validations: ^0.8.4
+  validations :     
+    git:
+      url: git@github.com:tristanpct/validations.git
+      ref: master
+      path: validations
   analyzer: ^0.39.0
   build: '>=0.12.6 <2.0.0'
   build_config: '>=0.2.6 <0.5.0'
