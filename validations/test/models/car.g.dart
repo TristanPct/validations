@@ -117,7 +117,7 @@ abstract class _$TestCarValidator implements Validator<Car> {
       errorCheck('isRegistered', value);
   @override
   PropertyMap<Car> props(Car instance) {
-    return PropertyMap<Car>({
+    return PropertyMap<Car>(<String, dynamic>{
       'manufacturer': instance.manufacturer,
       'driver': instance.driver,
       'licensePlate': instance.licensePlate,
@@ -158,6 +158,6 @@ abstract class _$TestDriverValidator implements Validator<Driver> {
   String validateName(Object value) => errorCheck('name', value);
   @override
   PropertyMap<Driver> props(Driver instance) {
-    return PropertyMap<Driver>({'name': instance.name});
+    return PropertyMap<Driver>(<String, dynamic>{'name': instance.name});
   }
 }

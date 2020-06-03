@@ -339,7 +339,7 @@ class ModelParser {
     final body = refer('PropertyMap<${model.name}>')
         .newInstance(
           [
-            literalMap(fieldNames),
+            literalMap(fieldNames, refer('String'), refer('dynamic')),
           ],
         )
         .returned
