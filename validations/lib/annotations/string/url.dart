@@ -6,7 +6,7 @@ part of annotations.string;
 /// The optional parameter regexp allow to specify an additional
 /// regular expression which the URL must match.
 @immutable
-@Constraint(validatedBy: UrlValidator)
+@Constraint(validatedBy: URLValidator)
 @Target({ElementType.FIELD})
 class URL extends ValidatorAnnotation {
   final String protocol;

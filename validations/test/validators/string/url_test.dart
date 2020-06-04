@@ -4,7 +4,7 @@ import '../../test_validator.dart';
 
 void main() {
   // https://github.com/dart-league/validators/blob/master/test/validator_test.dart
-  TestValidator(UrlValidator())
+  TestValidator(URLValidator())
     ..isValid({
       null,
       'foobar.com',
@@ -61,12 +61,12 @@ void main() {
       'http://localhost:61500this is an invalid url!!!!',
     });
 
-  TestValidator(UrlValidator(requireProtocol: false)).isValid({
+  TestValidator(URLValidator(requireProtocol: false)).isValid({
     null,
     'www.example.com',
   });
 
-  TestValidator(UrlValidator(requireTld: false)).isValid({
+  TestValidator(URLValidator(requireTld: false)).isValid({
     null,
     'example',
   });

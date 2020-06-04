@@ -3,14 +3,14 @@ part of validators.string;
 /// Checks whether the value is a valid url.
 ///
 /// Supported types: [String]
-class UrlValidator extends ConstraintValidator {
+class URLValidator extends ConstraintValidator {
   final List<String> protocols;
   final bool requireTld;
   final bool requireProtocol;
   final bool allowUnderscore;
   final List<String> whitelist;
   final List<String> blacklist;
-  UrlValidator({
+  URLValidator({
     /// Allowed protocols.
     this.protocols = const ['http', 'https', 'ftp'],
 

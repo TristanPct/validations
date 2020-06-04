@@ -65,6 +65,6 @@ final stringValidators = [
   NumericValidator,
   PatternValidator,
   UppercaseValidator,
-  UrlValidator,
+  URLValidator,
   UuidValidator,
 ];
