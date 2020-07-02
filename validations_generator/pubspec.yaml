@@ -11,7 +11,7 @@ environment:
 dependencies:
   validations :     
     git:
-      url: git@github.com:tristanpct/validations.git
+      url: https://github.com/TristanPct/validations.git
       ref: develop
       path: validations
   analyzer: ^0.39.0

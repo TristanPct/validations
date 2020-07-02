@@ -18,7 +18,7 @@ dev_dependencies:
   build_runner:
   validations_generator:
     git:
-      url: git@github.com:tristanpct/validations.git
+      url: https://github.com/TristanPct/validations.git
       ref: develop
       path: validations_generator
   pedantic: ^1.0.0
